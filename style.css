@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
+}
+
+.googleLogo{
+    grid-area: 1, 2, 4, 4;
+}
+
+.searchBox {
+    grid-area: 2, 1, 4, 4;
+}
